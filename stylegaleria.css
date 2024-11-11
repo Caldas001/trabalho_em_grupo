@@ -1,0 +1,55 @@
+
+nav a {
+    color: white;
+    padding: 13px 50px;
+    text-decoration: none;
+    text-align: center;
+}
+nav a:hover {
+    background-color:#522e3b;
+    color: white;
+} 
+.container{
+    width: 70%;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #FFF  ;  
+    background-color: rgb(255, 255, 255);  
+}
+
+table img{       
+    width: 100%;
+    height: 100%;
+}
+th{
+    text-align: center;
+    vertical-align: middle;
+}
+/* Estilo para as imagens dentro das células da tabela */
+table img {
+    width: 100%; /* Faz a imagem ocupar toda a largura da célula */
+    height: 200px; /* Ajusta a altura das imagens para um valor fixo */
+    object-fit: cover; /* Faz com que a imagem cubra a célula sem distorcer */
+}
+img:hover{
+    transform: scale(1.05);
+}
+
+/* Certifique-se de que as tabelas não tenham espaçamento extra */
+table {
+    width: 100%; /* A tabela ocupa toda a largura disponível */
+    border-collapse: collapse; /* Remove qualquer espaçamento entre as células */
+}
+
+/* Estilos adicionais para as células da tabela */
+th, td {
+    padding: 0; /* Remove o preenchimento interno das células */
+    text-align: center; /* Centraliza o conteúdo da célula */
+    vertical-align: middle; /* Alinha o conteúdo ao centro verticalmente */
+}
+footer{
+    background-color:#29282e;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
